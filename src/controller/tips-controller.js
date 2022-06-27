@@ -1,5 +1,5 @@
-export function tips(app){
+export function tips(app, bd){
     app.get('/tips', function (req, res) {
-        res.send(bd.tips);
+        res.send(bd.tip);
       })
 }
